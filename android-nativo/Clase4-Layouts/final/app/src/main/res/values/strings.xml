@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Layouts</string>
+    <string-array name="countries">
+        <item>Colombia</item>
+        <item>Venezuela</item>
+        <item>Ecuador</item>
+        <item>Perú</item>
+        <item>Brasil</item>
+        <item>Bolivia</item>
+        <item>Chile</item>
+        <item>Uruguay</item>
+        <item>Paraguay</item>
+        <item>Argentina</item>
+    </string-array>
+</resources>
