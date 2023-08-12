@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Activities-1</string>
+    <string name="btn_txt">Clic aquí</string>
+    <string name="saludo">¡ Hola, %s !</string>
+</resources>
