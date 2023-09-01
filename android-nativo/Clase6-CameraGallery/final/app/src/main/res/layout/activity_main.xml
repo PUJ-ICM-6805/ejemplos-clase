@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="30dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:textSize="18sp"
+            android:text="Camera"
+            android:backgroundTint="#3F51B5"
+            app:icon="@drawable/ic_camera_01"
+            app:iconSize="40dp"
+            app:cornerRadius="50dp"
+            android:onClick="loadCamera"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:textSize="18sp"
+            android:text="CameraX"
+            android:backgroundTint="#FF9800"
+            app:icon="@drawable/ic_camerax_01"
+            app:iconTint="@null"
+            app:iconSize="40dp"
+            app:cornerRadius="50dp"
+            android:onClick="loadCameraX"/>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
