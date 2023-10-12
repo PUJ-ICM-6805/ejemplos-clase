@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "673024162515",
+    "project_id": "icmpuj-2330-firebase",
+    "storage_bucket": "icmpuj-2330-firebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:673024162515:android:c4ce9e20a4505db339b226",
+        "android_client_info": {
+          "package_name": "com.icm2330.firebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsiaNorNAn9YZA9ZO7nYQB4oNRY82Wc-A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
