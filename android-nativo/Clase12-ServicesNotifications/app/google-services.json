@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "673024162515",
+    "firebase_url": "https://icmpuj-2330-firebase-default-rtdb.firebaseio.com",
+    "project_id": "icmpuj-2330-firebase",
+    "storage_bucket": "icmpuj-2330-firebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:673024162515:android:31994f5481b8185739b226",
+        "android_client_info": {
+          "package_name": "com.example.firebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsiaNorNAn9YZA9ZO7nYQB4oNRY82Wc-A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:673024162515:android:702666830420403e39b226",
+        "android_client_info": {
+          "package_name": "com.icm2330.ServicesNotifications"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsiaNorNAn9YZA9ZO7nYQB4oNRY82Wc-A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:673024162515:android:c4ce9e20a4505db339b226",
+        "android_client_info": {
+          "package_name": "com.icm2330.firebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsiaNorNAn9YZA9ZO7nYQB4oNRY82Wc-A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
