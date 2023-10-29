@@ -50,7 +50,7 @@ class _GuessGameState extends State<GuessGame> {
                         context,
                         MaterialPageRoute(
                           builder: (context) =>
-                              HomePage(title: 'Guess the Number - Home'),
+                              const HomePage(title: 'Guess the number - Home'),
                         ),
                       ),
                     ),
@@ -76,7 +76,7 @@ class _GuessGameState extends State<GuessGame> {
                         context,
                         MaterialPageRoute(
                           builder: (context) =>
-                              HomePage(title: 'Guess the Number - Home'),
+                              const HomePage(title: 'Guess the number - Home'),
                         ),
                       ),
                       child: const Text('Cancel'),
@@ -123,9 +123,12 @@ class _GuessGameState extends State<GuessGame> {
 
   @override
   Widget build(BuildContext context) {
+
+    final String userName = ModalRoute.of(context)!.settings.arguments as String;
+
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Guess the Number"),
+        title: const Text("Guess the number - Home"),
         // backgroundColor: Colors.deepOrange,
       ),
       body: Container(
@@ -135,12 +138,12 @@ class _GuessGameState extends State<GuessGame> {
             mainAxisAlignment: MainAxisAlignment.center,
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              const SizedBox(
+              SizedBox(
                 width: double.infinity,
                 child: Text(
-                  "Adivina un número 1-100",
+                  "$userName, adivina un número 1-100",
                   textAlign: TextAlign.center,
-                  style: TextStyle(
+                  style: const TextStyle(
                       color: Colors.blue,
                       fontSize: 24,
                       fontWeight: FontWeight.bold),

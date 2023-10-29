@@ -10,8 +10,12 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
+  TextEditingController tec = TextEditingController();
+  bool _ready = false;
+
   @override
   Widget build(BuildContext context) {
+
     return Scaffold(
       appBar: AppBar(
         title: Text(widget.title),
@@ -28,12 +32,28 @@ class _HomePageState extends State<HomePage> {
               height: 200,
               child: Image.asset("assets/images/question.png"),
             ),
+            const SizedBox(
+              height: 40,
+            ),  
+            TextField(
+              decoration:
+                  const InputDecoration(hintText: "¿Cuál es tu nombre?"),
+              onChanged: (value) {
+                _ready = value.isNotEmpty;
+                setState(() {});
+              },
+              controller: tec,
+            ),
           ],
         ),
       ),
       floatingActionButton: FloatingActionButton(
+        onPressed: _ready
+            ? () =>
+                Navigator.of(context).pushNamed('/guess', arguments: tec.text)
+            : null,
+        backgroundColor: _ready ? Colors.blue : Colors.grey,
         child: const Icon(Icons.navigate_next),
-        onPressed: () => Navigator.of(context).pushNamed('/guess'),
       ),
     );
   }
